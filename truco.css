@@ -1,0 +1,148 @@
+#titulo{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+    font-size: 55px;
+    font-weight: 600;
+}
+header {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    width: 100%;
+}
+body{
+    font-family: Arial, sans-serif;
+     background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+}
+section{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+#modo-juego{
+    margin: 25px auto;
+    text-align: center;
+}
+#sectionIntro{
+    margin: 0 auto;
+    font-size: 35px
+}
+button{
+    width: 150px;
+    height: 100px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+button:hover {
+    background-color: #27ae60;
+    transform: scale(1.05);
+}
+
+
+#puntos-de-jugador{
+    display: flex
+}
+#puntos-enemigos{
+    display: flex
+}
+#puntos-rival{
+    position: absolute;
+    left: 35%
+}
+#puntos-jugador{
+    position: absolute;
+    left: 35%
+}
+
+
+#botonJugadorPc{
+    margin: 0 auto;
+    margin-bottom: 20px
+}
+#enDesarrollo{
+    margin: 0 auto;
+}
+
+#seleccion-juego-boton{
+display: flex;
+flex-direction: column;}
+
+#turnoDe{
+    margin: 0 auto;
+    font-size: 35px;
+}
+#sectionJuego{
+    display: flex;
+    flex-direction: column;
+}
+#cartaEnemigoPrimera{
+    margin: auto auto;
+}
+.carta{
+    text-align:center;
+    border: 1px solid black;
+    height: 100px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+
+#cartas{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    width: 50%;
+    height: 100px;
+    margin: auto auto;
+    
+}
+#botones-ataque{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+#envido:disabled:hover{
+    background-color: rgb(251, 89, 89);
+    transform: scale(1.05);
+
+}
+#truco:disabled:hover{
+    background-color: rgb(251, 89, 89);
+    transform: scale(1.05);
+
+}
+#truco:disabled{
+    background-color: rgb(73, 73, 221);
+    transform: scale(1.05);
+
+}
+#botones-especiales{
+    display: flex;
+    justify-content: center;
+}
+#botones-2{
+    margin: 0 auto;
+    margin-top: 200px;
+}

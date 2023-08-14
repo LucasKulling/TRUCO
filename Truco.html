@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset = "utf-8"/>
+        <title>TRUCAZO</title>
+       <link rel="stylesheet" href="./truco.css">
+  
+    </head>
+
+    <body>
+    <header>
+       <section id="titulo">TRUCAZO</section>
+    </header>
+       <section id="sectionIntro">
+        <h1 id="modo-juego">Modos de juego</h1>
+        <div id="seleccion-juego-boton">
+        <button id="botonJugadorPc"> 👩‍🦰/🧑 VS 💻</button>
+        <button id="enDesarrollo"> En Desarrollo 👨‍💻</button>
+        </div>
+       </section>
+       <section id="sectionJuego">
+                <h3 id="turnoDe"></h3>
+                <div id="puntos">
+                    <div id="puntos-enemigos">
+                        <h3>Rival: </h3><h3 id="puntos-rival">0</h3>
+                    </div>
+                    <div id="puntos-de-jugador">
+                        <h3>Jugador: </h3><h3 id="puntos-jugador">0</h3>
+                    </div>
+                </div>
+                <br>
+                <var id="cartas">
+                    <p class="carta" id="cartaEnemigoPrimera"></p>
+                    <p class="carta" id="cartaEnemigoSegunda"></p>
+                    <p class="carta" id="cartaEnemigoTercera"></p>
+                    <p class="carta" id="cartaJugadorPrimera"></p>
+                    <p class="carta" id="cartaJugadorSegunda"></p>
+                    <p class="carta" id="cartaJugadorTercera"></p>
+                </var>
+            <var id="botones-2">
+                <var id="botones-ataque">
+                    <button id="carta1"></button>
+                    <button id="carta2"></button>
+                    <button id="carta3"></button>
+                </var>
+                <var id="botones-especiales">
+                    <button id="envido">Envido</butto>
+                    <button id="truco">Truco</button>
+                </var>
+        </var>
+       </section>
+
+
+
+
+
+
+
+        <script src="./trucazo.js"></script> 
+    </body> 
+</html>
+
